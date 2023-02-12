@@ -7,7 +7,7 @@ with open('HISTORY.md') as history_file:
     HISTORY = history_file.read()
 
 setup_args = dict(
-    name='lagrange-python-client',
+    name='lagrange-python-api',
     version='0.1.1',
     description='Useful tools to work with Lagrange DAO in Python',
     long_description_content_type="text/markdown",
