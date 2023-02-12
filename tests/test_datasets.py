@@ -1,5 +1,4 @@
 from lagrange.lagrange_client import LagrangeClient
-import pytest
 
 
 def test_get_dataset():
