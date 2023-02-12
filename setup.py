@@ -7,8 +7,8 @@ with open('HISTORY.md') as history_file:
     HISTORY = history_file.read()
 
 setup_args = dict(
-    name='lagrange-python-api',
-    version='0.1.1',
+    name='lagrange-python-client',
+    version='0.1.2',
     description='Useful tools to work with Lagrange DAO in Python',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
@@ -17,8 +17,8 @@ setup_args = dict(
     author='Charles Cao',
     author_email='datadaoswan@gmail.com',
     keywords=['LagrangeDao', 'Deeplearning', 'Cloud'],
-    url='https://github.com/lagrangedao/lagrange-python',
-    download_url='https://pypi.org/project/lagrange-python/'
+    url='https://github.com/lagrangedao/lagrange-python-client',
+    download_url='https://pypi.org/project/lagrange-python-client'
 )
 
 install_requires = [
